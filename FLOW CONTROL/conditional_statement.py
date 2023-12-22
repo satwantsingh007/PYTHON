@@ -129,14 +129,14 @@ Build a program that takes the current hour as input (in 24-hour format) and
 prints a greeting message based on the time of day (morning, afternoon, evening).
 """
 
-from datetime import datetime
-now = datetime.now()
-time = now.strftime("%H")
-current_time = int(time)
-if current_time>5 and current_time<12:
-    print("Good Morning")
-elif current_time>12 and current_time<18:
-    print("Good Afternoon")
-else:
-    print("Good night")
+# from datetime import datetime
+# now = datetime.now()
+# time = now.strftime("%H")
+# current_time = int(time)
+# if current_time>5 and current_time<12:
+#     print("Good Morning")
+# elif current_time>12 and current_time<18:
+#     print("Good Afternoon")
+# else:
+#     print("Good night")
 
