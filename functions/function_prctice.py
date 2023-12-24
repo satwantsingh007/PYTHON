@@ -1,5 +1,4 @@
-def greet():
-    print("Welcome ")
-    print("to my ")
-    print("WORLD")
-greet()
+def greet(name, location):
+    print(f"Welcome {name}")
+    print(f"to  {location}")
+greet(name = 'harry', location='UK')
