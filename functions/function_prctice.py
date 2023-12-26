@@ -9,4 +9,3 @@ def repeat_iterable(a, N):
     print(repeated_list[:N])
 repeat_iterable([1,2,3],10)
 
-
