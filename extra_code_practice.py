@@ -1,5 +1,5 @@
-i = 23
-print(i)
-if 45 > 5:
-    i = 45
-print(i)
+def hh(number):
+    return f"The number is {number}"
+
+a = hh(number=input("Enter :"))
+print(a)
